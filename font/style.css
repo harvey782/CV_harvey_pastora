@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?avssda');
-  src:  url('fonts/icomoon.eot?avssda#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?avssda') format('truetype'),
-    url('fonts/icomoon.woff?avssda') format('woff'),
-    url('fonts/icomoon.svg?avssda#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?7a6kre');
+  src:  url('fonts/icomoon.eot?7a6kre#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7a6kre') format('truetype'),
+    url('fonts/icomoon.woff?7a6kre') format('woff'),
+    url('fonts/icomoon.svg?7a6kre#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,38 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-adobetypekit:before {
+  content: "\e95e";
+  color: #87ec00;
+}
+.icon-adobephotoshop:before {
+  content: "\e960";
+  color: #00c8ff;
+}
+.icon-adobelightroom:before {
+  content: "\e985";
+  color: #add5ec;
+}
+.icon-adobeindesign:before {
+  content: "\e9c2";
+  color: #fd3f93;
+}
+.icon-adobeillustrator:before {
+  content: "\e9c5";
+  color: #ff7c00;
+}
+.icon-adobedreamweaver:before {
+  content: "\ea36";
+  color: #35fa00;
+}
+.icon-adobeaftereffects:before {
+  content: "\ea3e";
+  color: #d291ff;
+}
+.icon-adobeacrobatreader:before {
+  content: "\eabf";
+  color: #ee3f24;
+}
 .icon-envelope2:before {
   content: "\eac8";
 }
