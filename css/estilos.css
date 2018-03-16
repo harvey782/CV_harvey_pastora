@@ -109,6 +109,7 @@ li {
 	list-style:none;
 	text-align: center;
 	font-size: 18px;
+	padding-left: 0;
 
 
 }
@@ -182,3 +183,25 @@ li {
 
 }
 
+@media (min-width: 768px) {
+
+ .beha{
+ 	display: none;
+ 	
+ 	
+ }
+ .beha a img{
+ 	text-align: center;
+
+ }
+
+}
+
+@media (max-width: 768px) {
+
+
+.port{
+	display: none;
+	font-size: 17px;
+}
+}
