@@ -6,6 +6,8 @@
 
 body {
   padding-top: 54px;
+  background-image: url("../img/geometry2.png");
+ 
 }
 
 @media (min-width: 992px) {
