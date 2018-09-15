@@ -68,3 +68,100 @@ body {
         opacity:1;
         transform: translateY(15px)
     }
+
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+
+.pulse-btn {
+    text-align: center;
+    padding: 30px 0;
+}
+.pulse-btn .btn {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0.5em 1.5em;
+    animation: pulse 1.5s cubic-bezier(0.66, 0.67, 0.83, 0.99) infinite;
+}
+@media (max-width: 767px) {
+    .pulse-btn .btn {
+        font-size: 16px;
+        letter-spacing: normal;
+        padding: 10px 15px;
+    }
+}
+@keyframes pulse {
+    0% {
+        outline: 1px solid #428bca;
+        outline-offset: 0px;
+    }
+    30% {
+        outline: 1px solid rgba(48, 113, 169, 0.7);
+        outline-offset: 10px;
+    }
+    60% {
+        outline: 1px solid rgba(48, 113, 169, 0);
+        outline-offset: 20px;
+    }
+    100% {
+        outline: 1px solid rgba(48, 113, 169, 0);
+        outline-offset: 60px;
+    }
+}
