@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-content h2 span {
-  color: #50d8af;
+  color: #508dd8;
   text-decoration: underline;
 }
 
@@ -349,7 +349,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  color: #50d8af;
+  color: #1f52e4;
 }
 
 .nav-menu > li {
@@ -377,7 +377,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li:hover > a {
-  color: #50d8af;
+  color: #1f52e4;
 }
 
 .nav-menu ul ul {
